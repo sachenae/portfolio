@@ -230,7 +230,7 @@ class Contact extends Component {
             
              <InitialMap
              loadingElement={<div style={{ height: `100%` }} />}
-             containerElement={<div style={{ height: `500px` }} />}
+             containerElement={<div style={{ height: `auto` }} />}
              mapElement={<div style={{ height: `100%` }} />}
              markers={this.state.markers}
 
