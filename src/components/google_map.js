@@ -207,18 +207,14 @@ const InitialMap = withGoogleMap((props) =>{
   ]
 
   return (
-    <GoogleMap
-    ref={props.onMapLoad}
-    defaultZoom={11}
-    defaultCenter={{ lat: 60.15274136223932, lng: 24.75748119811701 }}
-    defaultOptions={{styles: mapStyles}}
-    
-  >
-   <Marker 
-    position={{ lat: 60.20274136223932, lng: 24.65748119811701 }}
-    icon= {'http://maps.google.com/mapfiles/kml/shapes/poi.png'}
-    />
-  </GoogleMap>
+     <iframe
+                
+                  src={`https://maps.google.com/maps?q=60.15274136223932, 24.65748119811701&z=15&output=embed`}
+                  width="100%"
+                  height="350px"
+                  frameBorder="0"
+                ></iframe>
+  
   )
 });
 
