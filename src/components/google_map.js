@@ -211,7 +211,7 @@ const InitialMap = withGoogleMap((props) =>{
                 
                   src={`https://maps.google.com/maps?q=60.15274136223932, 24.65748119811701&z=15&output=embed`}
                   width="100%"
-                  height="350px"
+                  height="600px"
                   frameBorder="0"
                 ></iframe>
   
